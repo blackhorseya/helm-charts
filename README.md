@@ -1,5 +1,6 @@
 # Kubernetes Helm Charts
 
+[![Release Charts](https://github.com/blackhorseya/helm-charts/actions/workflows/release.yml/badge.svg)](https://github.com/blackhorseya/helm-charts/actions/workflows/release.yml)
 [![GitHub license](https://img.shields.io/github/license/blackhorseya/helm-charts)](https://github.com/blackhorseya/helm-charts/blob/main/LICENSE)
 [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/blackhorseya)](https://artifacthub.io/packages/search?repo=blackhorseya)
 
