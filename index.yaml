@@ -1,5 +1,46 @@
 apiVersion: v1
 entries:
+  godutch:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-03T00:33:14.169238336Z"
+    dependencies:
+    - name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: "11"
+    description: A Helm chart for Godutch
+    digest: efc677f25af50c57d7178227423e8ee49bd71c60a2402fe401e4ca38a32a7ad6
+    name: godutch
+    type: application
+    urls:
+    - https://github.com/blackhorseya/helm-charts/releases/download/godutch-0.1.0/godutch-0.1.0.tgz
+    version: 0.1.0
+  lobster:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-03T00:33:14.338876027Z"
+    dependencies:
+    - name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: "11"
+    description: A Helm chart for Lobster
+    digest: e8965afa89d84712ffbdc637d1ee0eb01c80946ed99b5ce1f9492aa7f9e7c65c
+    name: lobster
+    type: application
+    urls:
+    - https://github.com/blackhorseya/helm-charts/releases/download/lobster-0.1.0/lobster-0.1.0.tgz
+    version: 0.1.0
+  pilemall:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-03T00:33:14.48934616Z"
+    description: A Helm chart for Pilemall
+    digest: 1ea46b2d2e94154a0c33885ccc796700268ef8ab66dd45f4fb050160f6269327
+    name: pilemall
+    type: application
+    urls:
+    - https://github.com/blackhorseya/helm-charts/releases/download/pilemall-0.1.0/pilemall-0.1.0.tgz
+    version: 0.1.0
   todo-app:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -11,4 +52,15 @@ entries:
     urls:
     - https://github.com/blackhorseya/helm-charts/releases/download/todo-app-0.1.0/todo-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-03T00:31:15.870284037Z"
+  user-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-03T00:33:14.649701965Z"
+    description: A Helm chart for User app
+    digest: d34af99d19fa3fb02a1dfff77e7054b69107028f0fb418924e808629ae7f49a4
+    name: user-app
+    type: application
+    urls:
+    - https://github.com/blackhorseya/helm-charts/releases/download/user-app-0.1.0/user-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-03T00:33:14.649706665Z"
