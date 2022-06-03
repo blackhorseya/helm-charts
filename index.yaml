@@ -15,6 +15,17 @@ entries:
     urls:
     - https://github.com/blackhorseya/helm-charts/releases/download/godutch-0.1.0/godutch-0.1.0.tgz
     version: 0.1.0
+  irent-frontend:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-03T09:40:41.530769253Z"
+    description: A Helm chart for IRent frontend
+    digest: d23d00d6f51e75ac2df07e9ca1370466bee5cbcdc020056bb37de1509bf2a8ce
+    name: irent-frontend
+    type: application
+    urls:
+    - https://github.com/blackhorseya/helm-charts/releases/download/irent-frontend-0.1.0/irent-frontend-0.1.0.tgz
+    version: 0.1.0
   lobster:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -63,4 +74,4 @@ entries:
     urls:
     - https://github.com/blackhorseya/helm-charts/releases/download/user-app-0.1.0/user-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-03T00:33:14.649706665Z"
+generated: "2022-06-03T09:40:41.530776853Z"
