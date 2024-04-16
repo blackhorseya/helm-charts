@@ -98,3 +98,12 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+config: |-
+  log:
+    level: info
+    format: json
+  
+  http:
+    port: 80
+    mode: release
