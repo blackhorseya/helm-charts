@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/blackhorseya/helm-charts/releases/download/ekko-api-0.1.0/ekko-api-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-15T02:06:53.548164769Z"
+  orianna-quote-listener:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-16T16:57:07.03435938Z"
+    description: A Helm chart for Kubernetes
+    digest: 5471a61d850e259081c6a3f85c73f0ee71dbcbb789c891ac289affd0e9e6236a
+    name: orianna-quote-listener
+    type: application
+    urls:
+    - orianna-quote-listener-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-04-16T16:57:07.034369649Z"
