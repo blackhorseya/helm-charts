@@ -32,4 +32,15 @@ entries:
     urls:
     - orianna-quote-listener-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-16T17:17:47.859587889Z"
+  orianna-strategy-rest:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-05-05T05:02:43.627690278Z"
+    description: A Helm chart for Kubernetes
+    digest: 02cb80146471685f18c2ce40cff6618d6fbef968d7958001b35acb1d5a89b3b5
+    name: orianna-strategy-rest
+    type: application
+    urls:
+    - orianna-strategy-rest-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-05-05T05:02:43.627704655Z"
