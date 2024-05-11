@@ -14,6 +14,16 @@ entries:
   orianna-quote-listener:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-05-11T16:26:44.341935483Z"
+    description: A Helm chart for Kubernetes
+    digest: 1f39fb21c3305f0ac8ce09e32b66d12dcf46bc989f80dc2923b984a8d24b6f54
+    name: orianna-quote-listener
+    type: application
+    urls:
+    - orianna-quote-listener-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-04-16T17:17:47.859574194Z"
     description: A Helm chart for Kubernetes
     digest: 39e9634187f4c9c536d71a6e8ab7766d418cbac39da59fd3f2d41ad302a1e37c
@@ -43,4 +53,4 @@ entries:
     urls:
     - orianna-strategy-rest-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-05T05:02:43.627704655Z"
+generated: "2024-05-11T16:26:44.341951683Z"
