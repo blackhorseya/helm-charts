@@ -54,8 +54,8 @@ spec:
             {{- toYaml .Values.resources | nindent 12 }}
           volumeMounts:
             - name: app-config
-              mountPath: /root/.config/orianna/.orianna.yaml
-              subPath: .orianna.yaml
+              mountPath: /app/config.yaml
+              subPath: config.yaml
           {{- with .Values.volumeMounts }}
             {{- toYaml . | nindent 12 }}
           {{- end }}

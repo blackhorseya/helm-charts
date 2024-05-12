@@ -125,7 +125,8 @@ tolerations: []
 
 affinity: {}
 
-args: []
+args:
+  - --config=/app/config.yaml
 
 config: |-
   log:
