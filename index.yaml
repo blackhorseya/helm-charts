@@ -11,6 +11,17 @@ entries:
     urls:
     - https://github.com/blackhorseya/helm-charts/releases/download/ekko-api-0.1.0/ekko-api-0.1.0.tgz
     version: 0.1.0
+  godine:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-02T06:20:21.145230503Z"
+    description: A Helm chart for Kubernetes
+    digest: b8877e3c32555d65db048b89a53857036087cb99c83a87b8e9f47b7a0e188169
+    name: godine
+    type: application
+    urls:
+    - godine-0.1.0.tgz
+    version: 0.1.0
   orianna:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -74,4 +85,4 @@ entries:
     urls:
     - orianna-strategy-rest-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-12T05:54:34.799186505Z"
+generated: "2024-07-02T06:20:21.145245341Z"
