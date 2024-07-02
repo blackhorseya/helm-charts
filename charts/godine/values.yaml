@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: ghcr.io/blackhorseya/godine
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -71,14 +71,33 @@ resources: {}
   #   cpu: 100m
   #   memory: 128Mi
 
+startupProbe:
+  httpGet:
+    path: /api/healthz
+    port: http
+  initialDelaySeconds: 10
+  timeoutSeconds: 3
+  periodSeconds: 5
+  successThreshold: 1
+  failureThreshold: 36
 livenessProbe:
   httpGet:
-    path: /
+    path: /api/healthz
     port: http
+  initialDelaySeconds: 10
+  timeoutSeconds: 3
+  periodSeconds: 10
+  successThreshold: 1
+  failureThreshold: 1
 readinessProbe:
   httpGet:
-    path: /
+    path: /api/healthz
     port: http
+  initialDelaySeconds: 10
+  timeoutSeconds: 3
+  periodSeconds: 10
+  successThreshold: 1
+  failureThreshold: 1
 
 autoscaling:
   enabled: false
@@ -105,3 +124,8 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+args:
+  - --config=/app/config.yaml
+
+config: |-
