@@ -88,6 +88,16 @@ entries:
   ryze:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-20T03:32:26.326036081Z"
+    description: A Helm chart for Kubernetes
+    digest: 0a90d8c7fd60487912dcc5d0e690c142ceec6f8fe270698d69f13200a84e07ec
+    name: ryze
+    type: application
+    urls:
+    - ryze-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-20T02:52:10.360604829Z"
     description: A Helm chart for Kubernetes
     digest: 4e877c2edf221847c5cc79a05930fc772d146731783a7b42cc299a0c5b28806e
@@ -106,4 +116,4 @@ entries:
     urls:
     - ryze-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-20T02:52:10.360619918Z"
+generated: "2024-09-20T03:32:26.326058343Z"
