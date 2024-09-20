@@ -85,4 +85,15 @@ entries:
     urls:
     - orianna-strategy-rest-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-02T06:20:21.145245341Z"
+  ryze:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-20T02:23:47.707381115Z"
+    description: A Helm chart for Kubernetes
+    digest: 79cd7f6628b8fc40e7c399533c3e21907ef556b4847f251d33874c9e5d2271e9
+    name: ryze
+    type: application
+    urls:
+    - ryze-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-09-20T02:23:47.707401253Z"
