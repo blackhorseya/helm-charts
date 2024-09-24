@@ -88,6 +88,23 @@ entries:
   ryze:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-24T06:29:26.969933593Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.6.26
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.5.34
+    description: A Helm chart for Kubernetes
+    digest: 9c989d0511346a05993cf1e79df3ced76dafa0b70e75b086c49b3bc96a78f8a6
+    name: ryze
+    type: application
+    urls:
+    - ryze-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-20T03:32:26.326036081Z"
     description: A Helm chart for Kubernetes
     digest: 0a90d8c7fd60487912dcc5d0e690c142ceec6f8fe270698d69f13200a84e07ec
@@ -116,4 +133,4 @@ entries:
     urls:
     - ryze-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-20T03:32:26.326058343Z"
+generated: "2024-09-24T06:29:26.969950384Z"
